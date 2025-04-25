@@ -44,3 +44,9 @@
 body {
   background-color: rgb(215 242 232);
 }
+
+img {
+  height: auto;
+  width: 500px;
+  float: right;
+}
