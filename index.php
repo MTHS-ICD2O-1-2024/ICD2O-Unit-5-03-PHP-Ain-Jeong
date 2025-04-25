@@ -27,7 +27,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/movie_ratings.jpg" alt="movie rating image" width="500" />
+        <img src="./images/movie_ratings.jpg" alt="movie rating image" width="250" />
       </div>
       <br />
       <div class="page-content-guide">Enter in your age</div>

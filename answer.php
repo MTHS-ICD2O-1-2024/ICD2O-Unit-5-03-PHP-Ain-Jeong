@@ -27,27 +27,27 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/movie_ratings.jpg" alt="movie rating image" width="500" />
+        <img src="./images/movie_ratings.jpg" alt="movie rating image" width="250" />
       </div>
       <div class="page-content-answer">
         <div id="answer">
           <?php
           // input
           $userAge = $_GET["user-age"];
-            // process
-            if ($userAge >= 17) {
-                // output
-                echo 'You can watch R movies alone.'
-            } else if ($userAge >= 13){
-                // output
-                echo 'You can watch PG-13 movies alone.'
-            } else if ($userAge >= 5){
-                // output
-                echo 'You can watch G or PG movies alone.'
-            } else {
-                // output
-                echo 'You are too young for most of the movies.'
-            }
+          // process
+          if ($userAge >= 17) {
+            // output
+            echo 'You can watch R movies alone.';
+          } else if ($userAge >= 13) {
+            // output
+            echo 'You can watch PG-13 movies alone.';
+          } else if ($userAge >= 5) {
+            // output
+            echo 'You can watch G or PG movies alone.';
+          } else {
+            // output
+            echo 'You are too young for most of the movies.';
+          }
           ?>
         </div>
       </div>
