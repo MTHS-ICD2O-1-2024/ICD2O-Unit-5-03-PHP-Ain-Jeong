@@ -37,16 +37,16 @@
           // process
           if ($userAge >= 17) {
             // output
-            echo 'You can watch R movies alone.';
+            echo 'If you are ' . $userAge . ', You can watch R movies alone.';
           } else if ($userAge >= 13) {
             // output
-            echo 'You can watch PG-13 movies alone.';
+            echo 'If you are ' . $userAge . 'You can watch PG-13 movies alone.';
           } else if ($userAge >= 5) {
             // output
-            echo 'You can watch G or PG movies alone.';
+            echo 'If you are ' . $userAge . 'You can watch G or PG movies alone.';
           } else {
             // output
-            echo 'You are too young for most of the movies.';
+            echo 'If you are ' . $userAge . 'You are too young for most of the movies.';
           }
           ?>
         </div>
